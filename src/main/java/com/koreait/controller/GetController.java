@@ -15,8 +15,7 @@ public class GetController {
     //localhost:9090/api/getParameter?id=apple&pass=1234
     @GetMapping("/getParameter") //REQUESTMAPPING 하위로 있는것. GET 방식만 받을 수 있다.
     public String getPara( String id, @RequestParam String pass){
-        System.out.println("id : " + id);
-        System.out.println("pass : " + pass);
+        System.out.println("id : " + id + ", pw : " + pass);
         return "getPara() 호출";
     }
     /*
