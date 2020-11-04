@@ -1,4 +1,4 @@
-package com.koreait.day01_gradle;
+package com.koreait;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
